@@ -3,29 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semana 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            margin: auto;
+            text-align: center;
+            width: 50rem;
+            padding: 50px;
+        }
+        .avatar {
+            height: auto; 
+            width: auto; 
+            max-width: 128px; 
+            max-height: 128px;
+            border-radius: 50%;
+        }
+        .card-container {
+            text-align: left;
+            margin-top: 100px;
+        }
+        a {
+            color: black;
+        }
+        i {
+            padding-right: 10px;
+        }
+        footer {
+            bottom: 0;
+            text-align: left;
+        }
+    </style>
+    <title>Meu portfólio</title>
 </head>
 <body>
-    <img src="https://www.utfpr.edu.br/icones/cabecalho/logo-utfpr/@@images/image-1200-43d644e2be5c7bcf15049a7e78f2df88.png" width="256" height="102"/>
-    <h1 style="color: rgb(254, 204, 0);">Atividade semana 2</h1>
-    <h2>João Pedro Dias Elero</h2>
-    <h3>Projetos:</h3>
-    <div class="lista">
-        <ul>
-            <li>
-                <a href="https://jpdelero.github.io/frontend/">Currículo</a>
-            </li>
-            <li>Item2Lista</li>
-            <li>Item3Lista</li>
-        </ul>
+    <img src="avatar.png" class="avatar" />
+    <h3>Meu nome é João Pedro</h3>
+    <h2>Sou estudante na UTFPR</h2>
+    <p>Graduando em Análise e Desenvolvimento de Sistemas, sempre demonstrei interesse pela área de Tecnologia da Informação. Atualmente, tenho a oportunidade de aprofundar meus conhecimentos e aplicá-los na prática.</p>   
+    <div class="card-container">
+        <h1>Meus projetos</h1>
+        <div class="card">
+            <img src="" />
+            <h2>Título</h2>
+            <p>Descrição.</p>
+            <a href="#" class="card-link">Link do card</a>
+        </div>
+        <div class="card">
+            <img src="" />
+            <h2>Título</h2>
+            <p>Descrição.</p>
+            <a href="#" class="card-link">Link do card</a>
+        </div>
+        <div class="card">
+            <img src="" />
+            <h2>Título</h2>
+            <p>Descrição.</p>
+            <a href="#" class="card-link">Link do card</a>
+        </div>
     </div>
-    <h3>Entre em contato <a href="https://github.com/jpdelero">aqui.</a></h3>
+    <footer>
+        <h3>Entre em contato</h3>
+        <p><a href="https://github.com/jpdelero"><i class="fa fa-github"></i>GitHub</a></p>
+        <p>&copy; 2025 João Pedro Dias Elero. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
-
-<style>
-    .lista ul li {
-    display: inline-block;
-    padding-right: 8px;
-    }
-</style>
