@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao Flexbox</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            font-family: "Poppins", sans-serif;
+            background-color: #443627;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        nav{
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        img{
+            filter: brightness(0) saturate(100%) invert(89%) sepia(14%) saturate(177%) hue-rotate(340deg) brightness(106%) contrast(93%);
+        }
+        main{
+            width: 80%;
+            max-width: 800px;
+            border-radius: 40px;
+            padding: 40px;
+            background-color: #FFF0DC;
+            text-align: left;
+            color: #443627;
+        }
+        footer{
+            color: #FFF0DC;
+            padding-top: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <nav>
+        <a href="https://www.google.com" target="_blank">
+            <img src="google.png" alt="Google">
+        </a>
+
+        <a href="https://www.youtube.com" target="_blank">
+            <img src="youtube.png" alt="YouTube">
+        </a>
+
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="facebook.png" alt="Facebook">
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="instagram.png" alt="Instagram">
+        </a>
+
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="twitter.png" alt="Twitter">
+        </a>
+
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="linkedin.png" alt="LinkedIn">
+        </a>
+
+        <a href="https://www.whatsapp.com" target="_blank">
+            <img src="whatsapp.png" alt="WhatsApp">
+        </a>
+    </nav>
+
+    <main>
+        <h1>O que é Flexbox?</h1>
+
+        <p>
+            O Flexbox, ou Flexible Box Layout, é um modelo do CSS projetado para facilitar a criação de layouts mais eficientes e flexíveis, especialmente quando se trata de alinhar e distribuir espaçamento entre elementos dentro de um container. Ele foi introduzido para resolver os desafios que os layouts baseados em float, inline-block e posicionamento absoluto enfrentavam, oferecendo uma abordagem mais intuitiva para organizar elementos na tela.
+        </p>
+        
+        <p>
+            Um dos principais conceitos do Flexbox é o "eixo principal" (main axis) e o "eixo cruzado" (cross axis). O eixo principal é determinado pela propriedade flex-direction, que pode assumir valores como row, column, row-reverse e column-reverse. O eixo cruzado é perpendicular ao eixo principal. Essa separação ajuda a entender como os itens se comportam em diferentes direções, tornando o layout mais responsivo e adaptável.
+        </p>
+        
+        <p>
+            O Flexbox também oferece controle preciso sobre o alinhamento dos itens com propriedades como justify-content, align-items e align-self. Por exemplo, é possível centralizar todos os itens horizontal e verticalmente com apenas algumas linhas de código. Além disso, a propriedade flex permite que os elementos cresçam, encolham ou mantenham um tamanho base proporcionalmente dentro do container flexível.
+        </p>
+        
+        <p>
+            Por ser altamente adaptável, o Flexbox é muito utilizado em layouts modernos, especialmente quando se trata de interfaces responsivas. Embora ele não substitua completamente outras técnicas de layout como o CSS Grid, ele é ideal para componentes de interface menores, como menus, barras de navegação, cards e carrosséis. Seu uso eficiente contribui para códigos mais limpos, organizados e de fácil manutenção.
+        </p>        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
