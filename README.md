@@ -1,1 +1,1 @@
-Repositório referente as aulas da disciplina AS62F.
+Repositório referente ao curso AS62F - Programação Web Front-End - N12 (2025_01).
